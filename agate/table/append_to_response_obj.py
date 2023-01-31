@@ -10,7 +10,7 @@ from pydantic import BaseModel
 
 
 from collections import OrderedDict
-from agate.dto.profileResponse import *
+
 
 
 def append_to_response_obj(self, statisticsType, responseObj, **kwargs):
