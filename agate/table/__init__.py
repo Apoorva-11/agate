@@ -326,6 +326,8 @@ from agate.table.select import select
 from agate.table.to_csv import to_csv
 from agate.table.to_json import to_json
 from agate.table.where import where
+from agate.table.append_to_response_obj import append_to_response_obj
+
 
 Table.aggregate = aggregate
 Table.bar_chart = bar_chart
@@ -359,3 +361,4 @@ Table.select = select
 Table.to_csv = to_csv
 Table.to_json = to_json
 Table.where = where
+Table.append_to_response_obj = append_to_response_obj
